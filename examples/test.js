@@ -15,7 +15,7 @@ const render = () => {
             </div>
         </div>
     `;
-  document.getElementsByTagName("body")[0].innerHTML = html;
+  document.getElementById("app").innerHTML = html;
 };
 
 $effect(render);

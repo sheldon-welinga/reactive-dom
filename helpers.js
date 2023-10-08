@@ -21,3 +21,7 @@ export const isObject = (val) => {
     typeof val === "object"
   );
 };
+
+export const flatten = (arr) => {
+  return [].concat.apply([], arr);
+};
